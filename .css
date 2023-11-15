@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial, Helvetica, sans-serif';
+    background-color:antiquewhite;}
+    .nav > ul > li {
+        float: right;
+        display:block;
+        color: blue;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+.heading {
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 31%;
+text-underline-position: 1px;
+}
+
+.main { 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    width: 46%;
+padding-left: 25%;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.bigText {
+    font-family: Arial, Helvetica, sans-serif;
+ grid-column: 4 / span 6;
+}
+
+.link {
+    grid-column: 5 / span 6;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav > ul {
+    overflow:hidden;
+    list-style-type: none;
+    background-color: #096fa3;
+}
+.nav > ul > li {
+    float: right;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+.nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.power-image {
+    padding-left: 1%;
+}
+
+.fix-text {
+    grid-column: 4 / span 6;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {font-size: 20px;}
+
+.heading-fix {
+    padding-left: 27%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.why-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 26%;
+    padding-top: 15px;
+ 
+}
+
+.why-text {
+   padding-top: 1px;
+    grid-column: 4 / span 6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.why-rainforest {
+    grid-column: 1 / span 12;
+    padding-right: 277px;
+}
+.why-rainforest img {
+    width:122%;
+}
+
+
+.why-subheading {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 24%;
+    padding-top: 22px;
+}
+
+.why-link{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.why-rainforesttext {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
